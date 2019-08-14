@@ -1,0 +1,102 @@
+2019-08-14 15:13:10,130 - POST http://127.0.0.1:52479/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+2019-08-14 15:13:11,713 - Finished Request
+2019-08-14 15:13:11,714 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/window/current/maximize {"windowHandle": "current", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:12,828 - Finished Request
+2019-08-14 15:13:12,829 - Browser launched and maximize
+2019-08-14 15:13:12,829 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/url {"url": "https://webappdev.i2chain.info", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:17,522 - Finished Request
+2019-08-14 15:13:17,522 - I2chain Application Opened
+2019-08-14 15:13:17,523 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//a[contains(text(),'Create account')]", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:17,547 - Finished Request
+2019-08-14 15:13:17,548 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element/0.5152934690830142-1/click {"id": "0.5152934690830142-1", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:17,702 - Finished Request
+2019-08-14 15:13:24,703 - *******Testing signUp page********
+2019-08-14 15:13:24,703 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//input[@id='fname']", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:24,725 - Finished Request
+2019-08-14 15:13:24,726 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element/0.5152934690830142-2/value {"text": "Ajit", "value": ["A", "j", "i", "t"], "id": "0.5152934690830142-2", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:24,830 - Finished Request
+2019-08-14 15:13:24,831 - ********Entering first Name*********
+2019-08-14 15:13:24,831 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//input[@id='lname']", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:24,857 - Finished Request
+2019-08-14 15:13:24,857 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element/0.5152934690830142-3/value {"text": "Singh", "value": ["S", "i", "n", "g", "h"], "id": "0.5152934690830142-3", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:24,976 - Finished Request
+2019-08-14 15:13:24,976 - ********Entering Last Name*********
+2019-08-14 15:13:24,976 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//input[@id='email']", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:24,995 - Finished Request
+2019-08-14 15:13:24,996 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element/0.5152934690830142-4/value {"text": "ajit6.i2c@yopmail.com", "value": ["a", "j", "i", "t", "6", ".", "i", "2", "c", "@", "y", "o", "p", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.5152934690830142-4", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:25,318 - Finished Request
+2019-08-14 15:13:25,318 - ********Entering Email Id *********
+2019-08-14 15:13:25,318 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//input[@id='password']", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:25,345 - Finished Request
+2019-08-14 15:13:25,345 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element/0.5152934690830142-5/value {"text": "ajit2019", "value": ["a", "j", "i", "t", "2", "0", "1", "9"], "id": "0.5152934690830142-5", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:25,509 - Finished Request
+2019-08-14 15:13:25,509 - ********Entering password*********
+2019-08-14 15:13:25,510 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//input[@id='confirmPassword']", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:25,531 - Finished Request
+2019-08-14 15:13:25,531 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element/0.5152934690830142-6/value {"text": "ajit2019", "value": ["a", "j", "i", "t", "2", "0", "1", "9"], "id": "0.5152934690830142-6", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:25,666 - Finished Request
+2019-08-14 15:13:25,666 - ********Entering Confirm Password*********
+2019-08-14 15:13:25,666 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:25,683 - Finished Request
+2019-08-14 15:13:25,683 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element/0.5152934690830142-7/click {"id": "0.5152934690830142-7", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:25,781 - Finished Request
+2019-08-14 15:13:36,783 - *********new user found for registration************
+2019-08-14 15:13:36,783 - POST http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/element {"using": "xpath", "value": "//div[@class='form-section']/h1[@class='w-90']", "sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:36,803 - Finished Request
+2019-08-14 15:13:36,803 - DELETE http://127.0.0.1:52479/session/c83684cd92d30fd9f54af197716410b2/window {"sessionId": "c83684cd92d30fd9f54af197716410b2"}
+2019-08-14 15:13:36,977 - Finished Request
+2019-08-14 15:13:36,977 - *****************driver closing************
+2019-08-14 15:13:37,497 - POST http://127.0.0.1:52560/session {"capabilities": {"firstMatch": [], "alwaysMatch": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+2019-08-14 15:13:39,147 - Finished Request
+2019-08-14 15:13:39,147 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/window/current/maximize {"windowHandle": "current", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:40,259 - Finished Request
+2019-08-14 15:13:40,259 - Browser launched and maximize
+2019-08-14 15:13:40,259 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/url {"url": "https://webappdev.i2chain.info", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:44,752 - Finished Request
+2019-08-14 15:13:44,752 - I2chain Application Opened
+2019-08-14 15:13:44,753 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//a[contains(text(),'Create account')]", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:44,787 - Finished Request
+2019-08-14 15:13:44,787 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-1/click {"id": "0.9680949610759535-1", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:44,937 - Finished Request
+2019-08-14 15:13:51,939 - *******Testing signUp page********
+2019-08-14 15:13:51,939 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//input[@id='fname']", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:51,961 - Finished Request
+2019-08-14 15:13:51,961 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-2/value {"text": "ajit", "value": ["a", "j", "i", "t"], "id": "0.9680949610759535-2", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,050 - Finished Request
+2019-08-14 15:13:52,050 - ********Entering first Name*********
+2019-08-14 15:13:52,050 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//input[@id='lname']", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,069 - Finished Request
+2019-08-14 15:13:52,069 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-3/value {"text": "singh", "value": ["s", "i", "n", "g", "h"], "id": "0.9680949610759535-3", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,181 - Finished Request
+2019-08-14 15:13:52,181 - ********Entering Last Name*********
+2019-08-14 15:13:52,181 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//input[@id='email']", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,201 - Finished Request
+2019-08-14 15:13:52,201 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-4/value {"text": "adam.i2chain@gmail.com", "value": ["a", "d", "a", "m", ".", "i", "2", "c", "h", "a", "i", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "0.9680949610759535-4", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,531 - Finished Request
+2019-08-14 15:13:52,531 - ********Entering Email Id *********
+2019-08-14 15:13:52,531 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//input[@id='password']", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,551 - Finished Request
+2019-08-14 15:13:52,551 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-5/value {"text": "Adam2019", "value": ["A", "d", "a", "m", "2", "0", "1", "9"], "id": "0.9680949610759535-5", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,697 - Finished Request
+2019-08-14 15:13:52,697 - ********Entering password*********
+2019-08-14 15:13:52,697 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//input[@id='confirmPassword']", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,724 - Finished Request
+2019-08-14 15:13:52,724 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-6/value {"text": "Adam2019", "value": ["A", "d", "a", "m", "2", "0", "1", "9"], "id": "0.9680949610759535-6", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,882 - Finished Request
+2019-08-14 15:13:52,882 - ********Entering Confirm Password*********
+2019-08-14 15:13:52,882 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//button[@type='submit']", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:52,903 - Finished Request
+2019-08-14 15:13:52,903 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-7/click {"id": "0.9680949610759535-7", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:53,004 - Finished Request
+2019-08-14 15:13:58,004 - POST http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element {"using": "xpath", "value": "//div[@class='alert alert-danger alert-dismissible fade show']", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:58,021 - Finished Request
+2019-08-14 15:13:58,021 - GET http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-8/text {"id": "0.9680949610759535-8", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:58,048 - Finished Request
+2019-08-14 15:13:58,048 - An account with the given email already exists.
+×
+2019-08-14 15:13:58,048 - GET http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/element/0.9680949610759535-8/text {"id": "0.9680949610759535-8", "sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:13:58,065 - Finished Request
+2019-08-14 15:13:58,065 - **********sign up with already registered user email address PASS*************
+2019-08-14 15:13:58,065 - DELETE http://127.0.0.1:52560/session/ac90e14147469f1d42d05298357165bc/window {"sessionId": "ac90e14147469f1d42d05298357165bc"}
+2019-08-14 15:14:00,149 - Finished Request
+2019-08-14 15:14:00,149 - *****************driver closing************
